@@ -2,6 +2,7 @@
 name = "steam-shortcuts"
 version = "1.0.0"
 edition = "2024"
+license = "MIT"
 publish = false
 description = "Adds programs and games to Steam, so the Steam Controller works in them, and points desktop icons at Steam – and back."
 repository = "https://github.com/Windows-Toolbox/Steam-Shortcuts"
