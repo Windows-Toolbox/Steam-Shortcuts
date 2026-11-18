@@ -1,0 +1,46 @@
+[package]
+name = "steam-shortcuts"
+version = "1.0.0"
+edition = "2024"
+publish = false
+description = "Adds programs and games to Steam, so the Steam Controller works in them, and points desktop icons at Steam – and back."
+repository = "https://github.com/Windows-Toolbox/Steam-Shortcuts"
+
+# What the Toolbox needs to know; program.json is generated from this by build.rs (Toolbox\DESIGN.md 15.4).
+[package.metadata.toolbox]
+id = "steam_shortcuts"
+exe = "SteamShortcuts.exe"
+category = { de = "Spiele", en = "Games" }
+background = true
+name = "Steam Shortcuts"
+description = { de = "Trägt Programme und Spiele in Steam ein, damit der Steam Controller darin geht, und stellt Desktop-Symbole auf Steam um – und wieder zurück.", en = "Adds programs and games to Steam, so the Steam Controller works in them, and points desktop icons at Steam – and back." }
+
+[dependencies]
+# The shared library of the Windows Toolbox, compiled in (from its main branch).
+kit = { package = "toolbox-kit", git = "https://github.com/Windows-Toolbox/Toolbox" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+windows-sys = { version = "0.61.2", features = [
+    "Win32_Foundation",
+    "Win32_System_Com",
+    "Win32_System_Registry",
+    "Win32_UI_Shell",
+] }
+
+# Only for the desktop's icon positions: Explorer's COM interfaces (IFolderView), which windows-sys has no wrappers for.
+windows = { version = "0.62.2", features = [
+    "Win32_Foundation",
+    "Win32_System_Com",
+    "Win32_System_Ole",
+    "Win32_System_Variant",
+    "Win32_UI_Shell",
+    "Win32_UI_Shell_Common",
+] }
+
+[build-dependencies]
+kit = { package = "toolbox-kit", git = "https://github.com/Windows-Toolbox/Toolbox", default-features = false, features = ["build"] }
+
+[profile.release]
+lto = true
+strip = true
+codegen-units = 1

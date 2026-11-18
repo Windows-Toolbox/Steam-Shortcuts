@@ -1,0 +1,103 @@
+{
+  "page.status": { "de": "Status", "en": "Status" },
+  "page.stopped": {
+    "de": "Gestoppt – Änderungen werden nur eingetragen, wenn Steam gerade geschlossen ist. „Start“ oben schaltet es ein: dann trägt es Vorgemerktes ein, sobald Steam beendet wird, und kann Steam neu starten.",
+    "en": "Stopped – changes are only written while Steam happens to be closed. “Start” above switches it on: then it writes what waits the moment Steam is closed, and can restart Steam."
+  },
+  "page.no_steam": { "de": "Steam wurde nicht gefunden – ist es installiert?", "en": "Steam was not found – is it installed?" },
+  "page.restarting": { "de": "Steam wird neu gestartet …", "en": "Restarting Steam …" },
+  "page.waiting": {
+    "de": "Wartet auf Steam: {names}. Wird eingetragen, sobald Steam beendet wird.",
+    "en": "Waiting for Steam: {names}. Written the moment Steam is closed."
+  },
+  "page.restart": { "de": "Steam jetzt neu starten", "en": "Restart Steam now" },
+  "group.waiting": { "de": "Wartet auf Steam", "en": "Waiting for Steam" },
+  "group.in": { "de": "In Steam", "en": "In Steam" },
+  "group.not": { "de": "Nicht in Steam", "en": "Not in Steam" },
+  "page.empty": {
+    "de": "Noch nichts eingetragen. Oben „+ Hinzufügen“: ein Symbol vom Desktop oder ein eigener Eintrag.",
+    "en": "Nothing entered yet. “+ Add” above: an icon from the desktop or an entry of your own."
+  },
+  "page.add": { "de": "+ Hinzufügen", "en": "+ Add" },
+  "page.add.text": {
+    "de": "Die Verknüpfungen auf deinem Desktop (Steam-Spiele sind ausgelassen). Ein Klick nimmt sie in die Liste – in Steam kommt sie erst mit „Zu Steam hinzufügen“.",
+    "en": "The shortcuts on your desktop (Steam games left out). A click puts one on the list – it goes into Steam only with “Add to Steam”."
+  },
+  "page.add.item": { "de": "+ {name}", "en": "+ {name}" },
+  "page.add.public": { "de": "+ {name} (Desktop aller Benutzer)", "en": "+ {name} (desktop of all users)" },
+  "page.add.none": { "de": "Keine weiteren Verknüpfungen auf dem Desktop.", "en": "No more shortcuts on the desktop." },
+  "page.add.own": { "de": "Eigener Eintrag", "en": "Entry of my own" },
+  "page.add.refresh": { "de": "Desktop neu einlesen", "en": "Read the desktop again" },
+  "entry.unnamed": { "de": "(ohne Namen)", "en": "(no name)" },
+  "entry.new_name": { "de": "Neuer Eintrag", "en": "New entry" },
+  "entry.in": { "de": "In Steam – über Steam gestartet geht der Steam Controller", "en": "In Steam – started through Steam, the Steam Controller works" },
+  "entry.not": { "de": "Nicht in Steam", "en": "Not in Steam" },
+  "entry.waits_add": { "de": "Wird in Steam eingetragen, sobald Steam beendet wird", "en": "Written into Steam the moment Steam is closed" },
+  "entry.waits_remove": { "de": "Wird aus Steam entfernt, sobald Steam beendet wird", "en": "Removed from Steam the moment Steam is closed" },
+  "tag.desktop": { "de": "Desktop → Steam", "en": "Desktop → Steam" },
+  "entry.name": { "de": "Name in Steam", "en": "Name in Steam" },
+  "entry.target": { "de": "Programm oder Adresse", "en": "Program or address" },
+  "entry.args": { "de": "Startparameter", "en": "Launch parameters" },
+  "entry.launcher": {
+    "de": "Startet über {launcher}: Steam startet {launcher}, und was {launcher} startet, bekommt den Controller mit. {launcher} sollte dabei noch nicht außerhalb von Steam laufen.",
+    "en": "Starts through {launcher}: Steam starts {launcher}, and what {launcher} starts gets the controller too. {launcher} should not be running outside Steam already."
+  },
+  "entry.no_handler": { "de": "Für diese Adresse ist kein Programm eingetragen – Steam kann sie so nicht starten.", "en": "No program is registered for this address – Steam cannot start it like this." },
+  "entry.steam_starts": { "de": "Steam startet: {exe} {options}", "en": "Steam starts: {exe} {options}" },
+  "entry.add": { "de": "Zu Steam hinzufügen", "en": "Add to Steam" },
+  "entry.add_now": { "de": "Steam neu starten und hinzufügen", "en": "Restart Steam and add" },
+  "entry.add_later": { "de": "Hinzufügen, wenn Steam beendet wird", "en": "Add when Steam is closed" },
+  "entry.dont_add": { "de": "Doch nicht hinzufügen", "en": "Do not add after all" },
+  "entry.keep": { "de": "Doch in Steam lassen", "en": "Keep it in Steam after all" },
+  "entry.unsteam": { "de": "Aus Steam entfernen", "en": "Remove from Steam" },
+  "entry.play": { "de": "▶ Über Steam starten", "en": "▶ Start through Steam" },
+  "entry.copy": { "de": "Steam-Adresse kopieren", "en": "Copy the Steam address" },
+  "entry.desktop.point": { "de": "Desktop-Symbol auf Steam umstellen", "en": "Point the desktop icon at Steam" },
+  "entry.desktop.restore": { "de": "Desktop-Symbol zurückstellen", "en": "Put the desktop icon back" },
+  "entry.desktop.create": { "de": "Desktop-Verknüpfung anlegen", "en": "Put a shortcut on the desktop" },
+  "entry.desktop.delete": { "de": "Desktop-Verknüpfung löschen", "en": "Delete the desktop shortcut" },
+  "entry.desktop.replaced": {
+    "de": "Das Desktop-Symbol startet über Steam ({file}). Das Original ist aufgehoben – „zurückstellen“ legt es wieder hin.",
+    "en": "The desktop icon starts through Steam ({file}). The original is kept – “put back” puts it there again."
+  },
+  "entry.desktop.made": { "de": "Desktop-Verknüpfung über Steam: {file}", "en": "Desktop shortcut through Steam: {file}" },
+  "entry.desktop.from": { "de": "Vom Desktop: {file}", "en": "From the desktop: {file}" },
+  "entry.remove": { "de": "Aus der Liste nehmen", "en": "Take off the list" },
+  "page.steam": { "de": "Steam", "en": "Steam" },
+  "page.steam.no_account": { "de": "kein Konto gefunden", "en": "no account found" },
+  "page.steam.text": {
+    "de": "Steam: {dir} – {running}. Konto: {account}. Vor jedem Schreiben wird Steams Liste der Nicht-Steam-Spiele gesichert (die letzten zehn).",
+    "en": "Steam: {dir} – {running}. Account: {account}. Before every write, Steam's list of non-Steam games is backed up (the last ten)."
+  },
+  "page.steam.running": { "de": "läuft", "en": "running" },
+  "page.steam.closed": { "de": "geschlossen", "en": "closed" },
+  "page.open_backup": { "de": "Sicherungen öffnen", "en": "Open the backups" },
+  "page.guide": { "de": "Gut zu wissen", "en": "Good to know" },
+  "page.guide.text": {
+    "de": "Der Steam Controller geht nur in Spielen, die Steam startet – auch über einen Launcher, den Steam startet. Steam merkt sich seine Liste beim Beenden selbst; darum wird sie nur geschrieben, während Steam geschlossen ist. Einträge anderer (von Hand in Steam hinzugefügt) bleiben unberührt. Ein Desktop-Symbol auf dem Desktop aller Benutzer braucht Administratorrechte zum Umstellen.",
+    "en": "The Steam Controller only works in games Steam starts – also through a launcher Steam starts. Steam writes its list itself when it quits; so it is only written while Steam is closed. Entries of others (added by hand in Steam) stay untouched. An icon on the desktop of all users needs administrator rights to be changed."
+  },
+  "page.advanced": { "de": "Erweitert", "en": "Advanced" },
+  "page.open_log": { "de": "Protokoll öffnen", "en": "Open the log" },
+  "page.open_settings": { "de": "Einstellungsdatei öffnen", "en": "Open the settings file" },
+  "status.waiting": { "de": "{n} wartet/warten auf Steam", "en": "{n} waiting for Steam" },
+  "status.in": { "de": "{n} in Steam", "en": "{n} in Steam" },
+  "toast.added": { "de": "In der Liste: {name}", "en": "On the list: {name}" },
+  "toast.new": { "de": "Neuer Eintrag – Programm oder Adresse eintragen", "en": "New entry – fill in the program or address" },
+  "toast.start_first": { "de": "Dafür muss Steam Shortcuts laufen – oben „Start“", "en": "Steam Shortcuts has to run for that – “Start” above" },
+  "toast.no_target": { "de": "Erst ein Programm (Pfad) oder eine Adresse eintragen", "en": "Fill in a program (path) or an address first" },
+  "toast.in_steam": { "de": "In Steam: {name}", "en": "In Steam: {name}" },
+  "toast.later": { "de": "{name} wird in Steam eingetragen, sobald Steam beendet wird", "en": "{name} is written into Steam the moment Steam is closed" },
+  "toast.restore_first": { "de": "Erst das Desktop-Symbol zurückstellen", "en": "Put the desktop icon back first" },
+  "toast.unsteam_first": { "de": "Erst aus Steam entfernen", "en": "Remove it from Steam first" },
+  "toast.copied": { "de": "Steam-Adresse kopiert", "en": "Steam address copied" },
+  "toast.pointed": { "de": "Das Desktop-Symbol startet jetzt über Steam", "en": "The desktop icon now starts through Steam" },
+  "toast.restored": { "de": "Das Desktop-Symbol ist wieder das alte", "en": "The desktop icon is the old one again" },
+  "toast.linked": { "de": "Desktop-Verknüpfung angelegt", "en": "Desktop shortcut made" },
+  "toast.desktop_failed": { "de": "Desktop: {error}", "en": "Desktop: {error}" },
+  "toast.removed": { "de": "Aus der Liste: {name}", "en": "Off the list: {name}" },
+  "error.read": { "de": "Steams Liste lässt sich nicht lesen: {error}", "en": "Steam's list cannot be read: {error}" },
+  "error.write": { "de": "Steams Liste ließ sich nicht schreiben: {error}", "en": "Steam's list could not be written: {error}" },
+  "error.no_account": { "de": "Kein Steam-Konto gefunden – einmal in Steam anmelden", "en": "No Steam account found – sign in to Steam once" },
+  "error.quit": { "de": "Steam hat sich nicht beenden lassen – von Hand beenden, dann wird eingetragen", "en": "Steam did not quit – quit it by hand, then it is written" }
+}
