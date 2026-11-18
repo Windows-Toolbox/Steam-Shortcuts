@@ -14,8 +14,12 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 $manifest = Get-Content 'dist\program.json' -Raw | ConvertFrom-Json
 $name = "$($manifest.id)-$($manifest.version)"
 $tag = "v$($manifest.version)"
+# "release not found" comes on stderr - with 'Stop', Windows PowerShell would end the script right there.
+$ErrorActionPreference = 'Continue'
 gh release view $tag *> $null
-if ($LASTEXITCODE -eq 0) { throw "$tag was already released - raise the version in Cargo.toml." }
+$released = $LASTEXITCODE -eq 0
+$ErrorActionPreference = 'Stop'
+if ($released) { throw "$tag was already released - raise the version in Cargo.toml." }
 
 # The sign tool is part of the Toolbox repo; it packs and signs in one step.
 $toolbox = Join-Path (Split-Path $PSScriptRoot -Parent) 'Toolbox'
