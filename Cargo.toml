@@ -1,6 +1,6 @@
 [package]
 name = "steam-shortcuts"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
 license = "MIT"
 publish = false
@@ -11,7 +11,7 @@ repository = "https://github.com/Windows-Toolbox/Steam-Shortcuts"
 [package.metadata.toolbox]
 id = "steam_shortcuts"
 exe = "SteamShortcuts.exe"
-category = { de = "Spiele", en = "Games" }
+category = { de = "Allgemein", en = "General" }
 background = true
 name = "Steam Shortcuts"
 description = { de = "Trägt Programme und Spiele in Steam ein, damit der Steam Controller darin geht, und stellt Desktop-Symbole auf Steam um – und wieder zurück.", en = "Adds programs and games to Steam, so the Steam Controller works in them, and points desktop icons at Steam – and back." }
